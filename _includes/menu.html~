@@ -1,9 +1,9 @@
 <div class="logo">
-	<!-- Logo --><a href="#home">Аджамбас</a>
+	<!-- Logo --><a href="/index.html">Аджамбас</a>
 </div>
 <ul>
             ================================================== -->
-	<li><a class="home" href="#home">О нас</a></li>
+	<li><a class="home" href="/about.html">О нас</a></li>
 	<li class="description">История</li>
 	<li class="description">Творчество</li>
 	<li class="description">Джаня</li>
