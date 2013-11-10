@@ -31,14 +31,7 @@
 		================================================== -->
 		<div class="span3">
 			<div class="well sidebar-nav sidebar-nav-fixed">
-				<div class="logo">
-					<!-- Logo --><a href="#home">Afolique</a>
-				</div>
-         {% include menu.html %} 
-				<div class="social">
-					<a href="#"><img src="../template/img/facebook.png" alt=""></a>
-					<a href="#"><img src="../template/img/twitter.png" alt=""></a>
-				</div>
+         {% include menu.html %} >
 			</div>
 		</div>
 		
