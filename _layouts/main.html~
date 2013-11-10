@@ -53,7 +53,9 @@
 				</div>
 			</div>
 			</section>
+				<div class="span8">
        {{ content }}
+				</div>
 	</div><!--/.span9-->
     </div><!--/.row-fluid-->
 </div><!--/.container-fluid-->
