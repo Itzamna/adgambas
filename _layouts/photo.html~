@@ -1,0 +1,1 @@
+<a href="{{ include.param }}"><img src="{{ include.param }}"></a>
