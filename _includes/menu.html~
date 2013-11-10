@@ -2,32 +2,21 @@
 	<!-- Logo --><a href="/index.html">Аджамбас</a>
 </div>
 <ul>
-            ================================================== -->
 	<li><a class="home" href="/about.html">О нас</a></li>
 	<li class="description">История</li>
-	<li class="description">Творчество</li>
-	<li class="description">Джаня</li>
-	<li class="description">Вамба</li>
-	<li class="description">Фазана</li>
-	<li class="description">Пометы</li>
 	
 	<li><a class="about" href="#about">Щенки</a></li>
 	<li class="description">Информация</li>
-	<li class="description">Памятка владельцу</li>
-	<li class="description">Образцы документов</li>
 	
 	<li><a class="services" href="#services">Полезное</a></li>
 	<li class="description">История породы</li>
-	<li class="description">Советы</li>
-	<li class="description">Скорая помощь</li>
 	
 	<li><a class="contact" href="#contact">Контакты</a></li>
 	<li class="description">Обратная связь</li>
-	<li class="description">Друзья</li>
 </ul>
 <div class="social">
-	<a href="#"><img src="../template/img/facebook.png" alt=""></a>
-	<a href="#"><img src="../template/img/twitter.png" alt=""></a>
+	<a href="#"><img src="template/img/facebook.png" alt=""></a>
+	<a href="#"><img src="template/img/twitter.png" alt=""></a>
 </div>
 
 
