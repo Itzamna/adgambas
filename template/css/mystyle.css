@@ -42,3 +42,7 @@ ul#menu li ul li.description a {
 	margin-bottom:10px;
 	color:#aaa !important;
 }
+
+.container-fluid img {
+padding: 10px;
+}

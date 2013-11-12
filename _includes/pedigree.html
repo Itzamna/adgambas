@@ -1,0 +1,187 @@
+<table width="900px" border="1" id="pedigree"> 	
+<colgroup><col width="33%"></col> 	<col width="33%"></col> 	<col width="33%"></col> 	</colgroup>
+<thead>
+<h3>Родословная</h3>
+</thead>
+  <tbody>
+    <tr valign="TOP">
+		<td rowspan="4" width="33%">
+		{% if $page.father.titles %}
+        <div class="ptitles">{{page.father.titles}}</div>
+    {% endif %}
+    {% if $page.father.name %}
+        <div class="pname">{{page.father.name}}</div>
+    {% endif %}
+    {% if $page.father.img %}
+        <div class="pimg"><a href="../images/{{page.father.img}}" class="thickbox"><img src="../images/{{page.father.img}}" width="100px"></a></div>
+    {% endif %}
+		</td> 		
+		<td rowspan="2" width="33%"> 	
+		{% if $page.father_f.titles %}
+        <div class="ptitles">{{page.father_f.titles}}</div>
+    {% endif %}
+    {% if $page.father_f.name %}
+        <div class="pname">{{page.father_f.name}}</div>
+    {% endif %}
+    {% if $page.father_f.img %}
+        <div class="pimg"><a href="../images/{{page.father_f.img}}" class="thickbox"><img src="../images/{{page.father_f.img}}" width="100px"></a></div>
+    {% endif %}
+		</td> 		
+		<td width="33%"> 			
+		{% if $page.father_f_f.titles %}
+        <div class="ptitles">{{page.father_f_f.titles}}</div>
+    {% endif %}
+    {% if $page.father_f_f.name %}
+        <div class="pname">{{page.father_f_f.name}}</div>
+    {% endif %}
+    {% if $page.father_f_f.img %}
+        <div class="pimg"><a href="../images/{{page.father_f_f.img}}" class="thickbox"><img src="../images/{{page.father_f_f.img}}" width="100px"></a></div>
+    {% endif %}	
+		</td> 	
+	 </tr>
+   	
+    <tr valign="TOP"> 		
+		<td width="33%">
+		{% if $page.father_f_m.titles %}
+        <div class="ptitles">{{page.father_f_m.titles}}</div>
+    {% endif %}
+    {% if $page.father_f_m.name %}
+        <div class="pname">{{page.father_f_m.name}}</div>
+    {% endif %}
+    {% if $page.father_f_m.img %}
+        <div class="pimg"><a href="../images/{{page.father_f_m.img}}" class="thickbox"><img src="../images/{{page.father_f_m.img}}" width="100px"></a></div>
+    {% endif %}	
+       	</td> 	
+	</tr>
+   	
+    <tr valign="TOP"> 		
+		<td rowspan="2" width="33%"> 
+		{% if $page.father_m.titles %}
+        <div class="ptitles">{{page.father_m.titles}}</div>
+    {% endif %}
+    {% if $page.father_m.name %}
+        <div class="pname">{{page.father_m.name}}</div>
+    {% endif %}
+    {% if $page.father_m.img %}
+        <div class="pimg"><a href="../images/{{page.father_m.img}}" class="thickbox"><img src="../images/{{page.father_m.img}}" width="100px"></a></div>
+    {% endif %}		
+       	</td> 		
+		<td width="33%"> 			
+		{% if $page.father_m_f.titles %}
+        <div class="ptitles">{{page.father_m_f.titles}}</div>
+    {% endif %}
+    {% if $page.father_m_f.name %}
+        <div class="pname">{{page.father_m_f.name}}</div>
+    {% endif %}
+    {% if $page.father_m_f.img %}
+        <div class="pimg"><a href="../images/{{page.father_m_f.img}}" class="thickbox"><img src="../images/{{page.father_m_f.img}}" width="100px"></a></div>
+    {% endif %}		
+		</td> 	
+	</tr>
+   	
+    <tr valign="TOP"> 		
+		<td width="33%"> 			
+		{% if $page.father_m_m.titles %}
+        <div class="ptitles">{{page.father_m_m.titles}}</div>
+    {% endif %}
+    {% if $page.father_m_m.name %}
+        <div class="pname">{{page.father_m_m.name}}</div>
+    {% endif %}
+    {% if $page.father_m_m.img %}
+        <div class="pimg"><a href="../images/{{page.father_m_m.img}}" class="thickbox"><img src="../images/{{page.father_m_m.img}}" width="100px"></a></div>
+    {% endif %}	
+		</td> 	
+	</tr>
+
+   	
+    <tr valign="TOP"> 		
+		<td rowspan="4" width="33%"> 			
+		{% if $page.mother.titles %}
+        <div class="ptitles">{{page.mother.titles}}</div>
+    {% endif %}
+    {% if $page.mother.name %}
+        <div class="pname">{{page.mother.name}}</div>
+    {% endif %}
+    {% if $page.mother.img %}
+        <div class="pimg"><a href="../images/{{page.mother.img}}" class="thickbox"><img src="../images/{{page.mother.img}}" width="100px"></a></div>
+    {% endif %}	
+		</td> 		
+		<td rowspan="2" width="33%"> 
+		{% if $page.mother_f.titles %}
+        <div class="ptitles">{{page.mother_f.titles}}</div>
+    {% endif %}
+    {% if $page.mother_f.name %}
+        <div class="pname">{{page.mother_f.name}}</div>
+    {% endif %}
+    {% if $page.mother_f.img %}
+        <div class="pimg"><a href="../images/{{page.mother_f.img}}" class="thickbox"><img src="../images/{{page.mother_f.img}}" width="100px"></a></div>
+    {% endif %}		
+    </td> 		
+		<td width="33%"> 
+		{% if $page.mother_f_f.titles %}
+        <div class="ptitles">{{page.mother_f_f.titles}}</div>
+    {% endif %}
+    {% if $page.mother_f_f.name %}
+        <div class="pname">{{page.mother_f_f.name}}</div>
+    {% endif %}
+    {% if $page.mother_f_f.img %}
+        <div class="pimg"><a href="../images/{{page.mother_f_f.img}}" class="thickbox"><img src="../images/{{page.mother_f_f.img}}" width="100px"></a></div>
+    {% endif %}	
+		</td> 	
+	</tr>
+   	
+    <tr valign="TOP"> 		
+		<td width="33%"> 			
+		{% if $page.mother_f_m.titles %}
+        <div class="ptitles">{{page.mother_f_m.titles}}</div>
+    {% endif %}
+    {% if $page.mother_f_m.name %}
+        <div class="pname">{{page.mother_f_m.name}}</div>
+    {% endif %}
+    {% if $page.mother_f_m.img %}
+        <div class="pimg"><a href="../images/{{page.mother_f_m.img}}" class="thickbox"><img src="../images/{{page.mother_f_m.img}}" width="100px"></a></div>
+    {% endif %}	
+       	</td> 	
+	</tr>
+   	
+    <tr valign="TOP"> 		
+		<td rowspan="2" width="33%">
+		{% if $page.mother_m.titles %}
+        <div class="ptitles">{{page.mother_m.titles}}</div>
+    {% endif %}
+    {% if $page.mother_m.name %}
+        <div class="pname">{{page.mother_m.name}}</div>
+    {% endif %}
+    {% if $page.mother_m.img %}
+        <div class="pimg"><a href="../images/{{page.mother_m.img}}" class="thickbox"><img src="../images/{{page.mother_m.img}}" width="100px"></a></div>
+    {% endif %}		
+    </td> 		
+		<td width="33%">
+		{% if $page.mother_m_f.titles %}
+        <div class="ptitles">{{page.mother_m_f.titles}}</div>
+    {% endif %}
+    {% if $page.mother_m_f.name %}
+        <div class="pname">{{page.mother_m_f.name}}</div>
+    {% endif %}
+    {% if $page.mother_m_f.img %}
+        <div class="pimg"><a href="../images/{{page.mother_m_f.img}}" class="thickbox"><img src="../images/{{page.mother_m_f.img}}" width="100px"></a></div>
+    {% endif %}			
+       	</td> 	
+	</tr>
+   	
+    <tr valign="TOP"> 		
+    
+		<td width="33%">
+		{% if $page.mother_m_m.titles %}
+        <div class="ptitles">{{page.mother_m_m.titles}}</div>
+    {% endif %}
+    {% if $page.mother_m_m.name %}
+        <div class="pname">{{page.mother_m_m.name}}</div>
+    {% endif %}
+    {% if $page.mother_m_m.img %}
+        <div class="pimg"><a href="../images/{{page.mother_m_m.img}}" class="thickbox"><img src="../images/{{page.mother_m_m.img}}" width="100px"></a></div>
+    {% endif %}
+    </td> 	
+	</tr>
+   </tbody>
+</table>
