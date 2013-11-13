@@ -1471,18 +1471,18 @@ table .span24 {
 /* Custom Content*/
 h1 {
 	color:#CE5010;
-	font-family:'LeagueGothicRegular';
-	font-size:35px;
+	font-family:'Roboto Condensed','LeagueGothicRegular';
+	font-size:25px;
 	line-height:1;
 }
 h2 {
-	font-family:'OstrichSansBlack';
-	font-size:28px;
+	font-family:'Roboto Condensed','OstrichSansBlack';
+	font-size:18px;
 }
 h4 {
 	color:#666666;
-	font-family:'OstrichSansBlack';
-	font-size:28px;
+	font-family:'Roboto Condensed','OstrichSansBlack';
+	font-size:18px;
 }
 .addspace {
 	margin-bottom:10px;
@@ -1566,8 +1566,8 @@ h4 {
 	height:19px;
 }
 .hero-unittext h1 {
-	font-family:LeagueGothicRegular;
-	font-size:50px;
+	font-family:'Roboto Condensed', LeagueGothicRegular;
+	font-size:35px;
 	color:#CE5010;
 	border:0px;
 	margin-top:20px;
@@ -1577,8 +1577,8 @@ h4 {
 	line-height:30px;
 }
 .hero-unittext h2 {
-	font-family:LeagueGothicRegular;
-	font-size:50px;
+	font-family:'Roboto Condensed', LeagueGothicRegular;
+	font-size:30px;
 	color:#333;
 	border:0px;
 	margin-bottom:30px;
@@ -1594,10 +1594,10 @@ h4 {
 	-moz-transition:all 300ms;
 	-o-transition:all 300ms;
 	transition:all 300ms;
-	padding:10px 5px 0px 10px;
+	padding:8px 5px 8px 10px;
 	color:#fff;
 	font-family:vladimir, LobsterTwoBoldItalic;
-	font-size:40px;
+	font-size:70px;
 	text-decoration:none;
 	text-align:left;
 }

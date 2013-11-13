@@ -1,11 +1,20 @@
+.fixed-top {
+top: 0;
+position: fixed;
+right: 0;
+left: 0;
+z-index: 1030;
+}
+.margin10{
+margin-top:80px;
+}
 ul#menu { 
-  margin-top: 25px;
   position: relative;
   width: 220px;
   z-index: 999;
   list-style: none;
   padding: 0;
-  margin: 30px 0 10px 25px;
+  margin: 10px 0 10px 25px;
 }
 
 
