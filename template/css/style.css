@@ -1511,7 +1511,7 @@ h4 {
 }
 .well ul li a {
 	text-decoration:none;
-	font-family:'OstrichSansBlack',Arial,sans-serif;
+	font-family:'Ubuntu Condensed','OstrichSansBlack',Arial,sans-serif;
 	font-size:20px;
 	text-align:left;
 	display:block;
@@ -1578,7 +1578,7 @@ h4 {
 }
 .hero-unittext h2 {
 	font-family:'Roboto Condensed', LeagueGothicRegular;
-	font-size:30px;
+	font-size:20px;
 	color:#333;
 	border:0px;
 	margin-bottom:30px;
